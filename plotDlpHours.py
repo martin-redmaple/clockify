@@ -18,32 +18,32 @@ CLOCKIFY_REPORTS_URL = "https://reports.api.clockify.me/v1"
 
 # Define the timespan that we want time entries from
 START_DATETIME = datetime.datetime(
-    2023, 12, 1, 0, 0, 0, tzinfo=datetime.timezone.utc)
+    2024, 12, 1, 0, 0, 0, tzinfo=datetime.timezone.utc)
 
 STOP_DATETIME = datetime.datetime(
-    2024, 11, 30, 23, 59, 59, tzinfo=datetime.timezone.utc)
+    2025, 11, 30, 23, 59, 59, tzinfo=datetime.timezone.utc)
 
 # Define the days per month to plot the expected burn line
 DAYS_PURCHASED = [
-    (datetime.datetime(2023, 12, 1), 7),
-    (datetime.datetime(2024,  1, 1), 7),
-    (datetime.datetime(2024,  2, 1), 7),
-    (datetime.datetime(2024,  3, 1), 6),
-    (datetime.datetime(2024,  4, 1), 5),
-    (datetime.datetime(2024,  5, 1), 5),
-    (datetime.datetime(2024,  6, 1), 5),
-    (datetime.datetime(2024,  7, 1), 5),
-    (datetime.datetime(2024,  8, 1), 5),
-    (datetime.datetime(2024,  9, 1), 5),
-    (datetime.datetime(2024, 10, 1), 5),
-    (datetime.datetime(2024, 11, 1), 5)
+    (datetime.datetime(2024, 12, 1), 5),
+    (datetime.datetime(2025,  1, 1), 5),
+    (datetime.datetime(2025,  2, 1), 5),
+    (datetime.datetime(2025,  3, 1), 5),
+    (datetime.datetime(2025,  4, 1), 5),
+    (datetime.datetime(2025,  5, 1), 5),
+    (datetime.datetime(2025,  6, 1), 5),
+    (datetime.datetime(2025,  7, 1), 5),
+    (datetime.datetime(2025,  8, 1), 5),
+    (datetime.datetime(2025,  9, 1), 5),
+    (datetime.datetime(2025, 10, 1), 5),
+    (datetime.datetime(2025, 11, 1), 5)
 ]
 
 # Define the hours in a work day
 WORK_DAY_HOURS = 8
 
 # Define the project that we want time entries for
-PROJECT = "DevOps Support 23/24 - RMSOW23058"
+PROJECT = "DevOps Support 24/25 - HXSC-SOW-24037"
 
 # Define the auth headers
 getHeaders = {
